@@ -1,0 +1,26 @@
+<main>
+    <mat-grid-list class="calculator" cols="4" gutterSize="10px">
+        <mat-grid-tile class="solution"
+            [colspan]="4"
+            [rowspan]="1"
+        >
+        {{calculatorValue}}
+        </mat-grid-tile>
+        <mat-grid-tile class="button"
+            *ngFor="let button of buttons"
+            [colspan]="button.cols"
+            [rowspan]="button.rows"
+            [style.background]="(button.type | buttonColor)"
+            (click)="handleCalculator(button.value, button.type)">
+            <ng-container *ngIf="button.value==='Delete' then deleteButton else notDeleteButton"></ng-container>
+            <ng-template #deleteButton>
+                <button mat-icon-button *ngIf="button.value==='Delete'" [disableRipple]="true">
+                    <mat-icon>backspace</mat-icon>
+                </button>
+            </ng-template>
+            <ng-template #notDeleteButton>
+                <button mat-button *ngIf="button.value!=='Delete'" [disableRipple]="true">{{button.value}}</button>
+            </ng-template>
+        </mat-grid-tile>
+    </mat-grid-list>
+</main>

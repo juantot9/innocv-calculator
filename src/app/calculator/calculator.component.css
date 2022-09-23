@@ -1,0 +1,42 @@
+main {
+    display: grid;
+    grid-template-columns: 5fr 3fr 5fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas:
+        ". . ."
+        ". calculator ."
+        ". . .";
+
+}
+.calculator {
+    grid-area: calculator;
+    min-width: 40vh;
+}
+
+.button {
+    border-radius: 5px;
+    box-shadow:  4px 4px 8px 1px #f0f0f0;
+}
+
+.button:hover {
+    filter: brightness(85%);
+    -webkit-filter: brightness(85%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+::ng-deep .solution .mat-grid-tile-content {
+    font-size: 3vh;
+    justify-content: flex-end;
+
+}
+
+.mat-grid-tile.solution {
+    box-sizing: border-box;
+    border: 3px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    box-shadow:  4px 4px 8px 1px #f0f0f0;
+}

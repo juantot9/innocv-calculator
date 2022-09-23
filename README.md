@@ -1,27 +1,53 @@
-# InnocvCalculator
+### **¡Buenas! Soy Juan Antonio Aranda, desarrollador front-end 🥳**  
+  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+**💻 Este es mi proyecto para la prueba técnica de INNOCV: [INNOCV-Calculator](https://github.com/juantot9/innocv-calculator)**  
+  
 
-## Development server
+😅 Os cuento un poco sobre el proyecto:  
+  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- En el proyecto he usado CSS, HTML con algunas directivas de Angular, pipes para controlar algunos casos del template, y el typescript correspondiente.  
+  
 
-## Code scaffolding
+- Con JS, los errores más comunes están controlados y suelen ser NaN o Infinity, así que he excluido estos casos como errores. 🤓  
+  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Lo he intentado hacer lo más rápido posible en los ratos libres de estos días.  
+  
 
-## Build
+- Me he dado cuenta de que usar el Material Grid List (😱) no ha sido la mejor de las ideas, me limitaba en ciertas situaciones, y todo era por usar algo de Angular Material y lo vierais.  
+  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Para la próxima vez usaré grid con CSS y ya. jeje  
+  
 
-## Running unit tests
+- He intentado que sea lo más responsive posible y que se vea bien tanto para pantallas pequeñas como grandes. 📱  
+  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- He disfrutado mucho haciéndolo, espero que os guste y agradecería cualquier tipo de feedback 👍  
+  
 
-## Running end-to-end tests
+<br/>  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+Tecnologías usadas:
+<table><tr><td valign="top" width="33%">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div align="center">  
+<a href="https://angular.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/angularjs-original.svg" alt="Angular" height="50" /></a>  
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+</td><td valign="top" width="33%">
+
+
+
+</td></tr></table>  
+
+<br/>  
